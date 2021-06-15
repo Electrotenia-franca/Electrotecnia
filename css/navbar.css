@@ -1,0 +1,88 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#584C8C;
+}
+
+nav {
+    margin: 0;
+    position:sticky;
+    top: 0;
+    width: 100vw;
+    background: #7A6EAF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    justify-content:space-between;
+    padding: 0;
+    z-index: 100;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.navbar{
+    margin-top: 42px;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    display: inline-box;
+    float:right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 43px 30px;
+    transition: background .8s;
+    align-items: center;
+    display: inline-box;
+    box-sizing:content-box;
+}
+
+.navbar a:hover{
+    background: #584C8C;
+    
+    text-decoration: none;
+    box-sizing:content-box;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+
+/*  Para probar responsive
+.nav{
+    margin-top: 42px;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    display: inline-box;
+    float:right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 43px 30px;
+    transition: background .8s;
+    align-items: center;
+    display: inline-box;
+    box-sizing:content-box;
+}
+
+.nav a:hover{
+    background: #584C8C;
+    
+    text-decoration: none;
+    box-sizing:content-box;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+}
+*/
