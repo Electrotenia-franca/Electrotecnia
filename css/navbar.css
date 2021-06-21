@@ -36,7 +36,7 @@ nav {
 .navbar a {
     text-decoration: none;
     color: white;
-    padding: 43px 30px;
+    padding: 43px  30px;
     transition: background .8s;
     align-items: center;
     display: inline-box;
@@ -54,36 +54,3 @@ nav {
     list-style: none;
     display: inline-block;
 }
-
-/*  Para probar responsive
-.nav{
-    margin-top: 42px;
-    text-align: center;
-    justify-content:space-between;
-    align-items: center;
-    display: inline-box;
-    float:right;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    padding: 43px 30px;
-    transition: background .8s;
-    align-items: center;
-    display: inline-box;
-    box-sizing:content-box;
-}
-
-.nav a:hover{
-    background: #584C8C;
-    
-    text-decoration: none;
-    box-sizing:content-box;
-}
-
-.nav li{
-    list-style: none;
-    display: inline-block;
-}
-*/
