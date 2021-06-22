@@ -77,6 +77,7 @@ footer{
   text-align: center;
   background-color: #7666bd;
   margin-bottom: 0;
+  float: bottom;
 }
 
 .imagen_redonda {
