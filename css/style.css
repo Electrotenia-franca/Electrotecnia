@@ -86,6 +86,10 @@ footer{
  border-radius: 20px;
 }
 
+aside{
+display:inline-block;
+}
+
 #derecha{
   float:right;
 }
