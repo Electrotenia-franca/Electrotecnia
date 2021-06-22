@@ -78,9 +78,14 @@ footer{
   background-color: #7666bd;
   margin-bottom: 0;
 }
+
 .imagen_redonda {
   float:right ;
   margin-left: 5px;
   margin-right: 5px;
  border-radius: 20px;
+}
+
+#derecha{
+  float:right;
 }
