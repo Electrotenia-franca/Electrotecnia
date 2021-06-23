@@ -1,3 +1,92 @@
+html{
+  min-height: 100%;
+}
+#izquierda{
+  width: 50%;
+  float: left;
+  background-color: aqua;
+}
+#contacto {
+  background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+height: 650px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+:root{
+  --colorTextos: #49454567;
+
+}
+.formu{
+  width: 50%;
+  margin: auto;
+}
+form .formu {
+  position: relative;
+  margin: 45px;
+  
+}
+
+input, textarea{
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--colorTextos);
+ resize: none;
+}
+input:focus,textarea:focus {
+  outline: none;
+  color: rgb(94, 93, 93);
+
+}
+input:focus~label,input:valid~label, textarea:focus~label,textarea:valid~label{
+  position: absolute;
+  top: -14px;
+  font-size: 12px;
+  color: #2196f3;
+}
+label {
+  color: var(--colorTextos);
+  font-size: 16px;
+  position: absolute;
+  left: 5px
+  top 10px;
+  transition: 0.5s ease all;
+  pointer-events: none;
+}
+input:focus~span::before, textarea:focus~span::before{
+  width: 100%;
+}
+span{
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+form {
+  background: #efff;
+  width: 30%;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 600;
+}
+#derecha{
+  width: 50%;
+  float: right;
+  background-color: blueviolet;
+}
 *{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -74,10 +163,9 @@ body{
 }
 
 footer{
-  text-align: center;
+  text-align:center;
+  width: 100%;
   background-color: #7666bd;
-  margin-bottom: 0;
-  float: bottom;
 }
 
 .imagen_redonda {
@@ -87,15 +175,27 @@ footer{
  border-radius: 20px;
 }
 
-aside{
- display: inline-block;
- width: 49%;
+span::before{
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #1565C0, #b92b27);
+  transition: 0.5s ease all;
+  left: 0;
 }
-
-#derecha{
-  float: right;
-}
-
-#izquierda{
-  float: left;
+button {
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;
+  width: 20%;
+  height: 40px;
+  border: none;
+  color: #efff;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
 }
