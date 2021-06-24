@@ -5,6 +5,7 @@ html{
   width: 50%;
   float: left;
   background-color: aqua;
+  height: 622.5px;
 }
 #contacto {
   background: #b92b27;  /* fallback for old browsers */
@@ -86,6 +87,7 @@ h1 {
   width: 50%;
   float: right;
   background-color: blueviolet;
+  height: 622.5px;
 }
 *{
   font-family: 'Montserrat', sans-serif;
@@ -198,4 +200,7 @@ button {
   font-size: 16px;
   margin: 10px auto;
   cursor: pointer;
+}
+#foot_t {
+  width: 100%;
 }
