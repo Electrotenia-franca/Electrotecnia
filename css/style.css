@@ -4,7 +4,6 @@ html{
 #izquierda{
   width: 50%;
   float: left;
-  background-color: aqua;
   height: 622.5px;
 }
 #contacto {
@@ -86,7 +85,6 @@ h1 {
 #derecha{
   width: 50%;
   float: right;
-  background-color: blueviolet;
   height: 622.5px;
 }
 *{
